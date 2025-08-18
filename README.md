@@ -26,9 +26,8 @@ Me adapto con facilidad a entornos remotos y colaborativos y estoy en continua f
 - **[Tasklist](https://github.com/MariaOcete/TaskList)**  
   Mi primer proyecto con **Angular**, desarrollado durante mi formación.  Aplicación de lista de tareas con funcionalidades CRUD (crear, listar, editar y eliminar).  También exploré el uso de **Symfony/PHP** en el backend y el despliegue con **Docker Compose**.
 
-
-- **[Invoice Dashboard](Codearts Solution)**  
-  Dashboard de facturación y gestión de clientes creado en equipo, con Angular (frontend) y Symfony (backend). Base de datos en PostgreSQL y despliegue con Docker.
+- **Invoice Dashboard (CodeArts Solutions)**  
+  Dashboard administrativo de facturación y gestión de clientes.  Desarrollado en equipo durante mis prácticas con **Angular** (frontend) y **Symfony/PHP** (backend).  Incluye métricas mensuales y trimestrales de ingresos, facturas y estadísticas por gestor.   Base de datos en PostgreSQL y despliegue con Docker.
 
 ---
 
