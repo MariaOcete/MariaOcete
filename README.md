@@ -1,25 +1,6 @@
 
 # [Maria Ocete](https://mariaocete.com/)  
 
-name: Generate GitHub Summary Cards
-on:
-  schedule:
-    - cron: "0 2 * * *"   # se actualiza cada día a las 02:00 UTC
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: vn7n24fzkq/github-profile-summary-cards@release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          USERNAME: MariaOcete
-          THEME: 2077   # prueba también 'tokyonight', 'dracula', 'github_dark', etc.
-
-
 Full-Stack Web Developer  
 
 <p align="left">
