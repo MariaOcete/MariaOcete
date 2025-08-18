@@ -1,5 +1,5 @@
 
-# Maria Ocete
+# [Maria Ocete](https://mariaocete.com/)
 
 Full-Stack Web Developer  
 
@@ -76,7 +76,8 @@ I easily adapt to remote and collaborative environments and I am continuously im
 ---
 
 ## Contact
+- Portfolio: [mariaocete.com](https://mariaocete.com/)
 - Email: mariaocete93@gmail.com  
 - LinkedIn: [linkedin.com/in/maria-ocete-martin](https://www.linkedin.com/in/maria-ocete-martin/)  
-- Portfolio: [mariaocete.com](https://mariaocete.com/)
+
 
