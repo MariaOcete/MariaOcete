@@ -14,7 +14,7 @@ Me adapto con facilidad a entornos remotos y colaborativos y estoy en continua f
 
 ## Proyectos destacados
 
-- **[Portfolio personal](https://github.com/MariaOcete/portfolio)**  
+- **[Portfolio personal](https://github.com/MariaOcete/portfolio)** [mariaocete](mariaocete.com)
   Sitio web bilingüe desarrollado con React y Tailwind, desplegado en Vercel con dominio propio. Incluye backend en Django para la gestión de formularios de contacto con reCAPTCHA y limitación de IP.
 
 - **[Clinic Management App](https://github.com/MariaOcete/clinics-app)**  
