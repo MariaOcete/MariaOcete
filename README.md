@@ -20,7 +20,7 @@ I easily adapt to remote and collaborative environments and I am continuously im
 - **[Clinic Management App](https://github.com/MariaOcete/clinics-app)**  
   Multi-role platform (admin, clinician, patient) for managing appointments, billing, and medical records. Built with React, Django REST, and PostgreSQL. Features JWT authentication and encrypted file uploads.  
 
-- **[English Learning App](https://github.com/MariaOcete/english_web)**  
+- **[English Learning App](https://github.com/MariaOcete/english_web-readme/blob/main/README.md)**  
   Educational platform with teacher/student roles, placement test, and assignment management. Developed with Java, Spring Boot, and MySQL.  
 
 - **[Tasklist](https://github.com/MariaOcete/TaskList)**  
