@@ -23,6 +23,8 @@ Me adapto con facilidad a entornos remotos y colaborativos y estoy en continua f
 - **[English Learning App](https://github.com/MariaOcete/english_web)**  
   Aplicación educativa con roles de alumno y profesor, test de nivel y gestión de entregas. Desarrollada con Java, Spring Boot y MySQL.
 
+- **[Tasklist](https://github.com/MariaOcete/TaskList)
+
 - **[Invoice Dashboard](Codearts Solution)**  
   Dashboard de facturación y gestión de clientes creado en equipo, con Angular (frontend) y Symfony (backend). Base de datos en PostgreSQL y despliegue con Docker.
 
