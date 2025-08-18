@@ -34,11 +34,11 @@ Me adapto con facilidad a entornos remotos y colaborativos y estoy en continua f
 ## Tecnologías
 
 - **Frontend:** React, Angular, Tailwind, HTML5, CSS3, JavaScript (ES6+)  
-- **Backend:** Django REST, Spring Boot, Symfony/PHP, Java, Python  
+- **Backend:** Django REST, Spring Boot/Java, Symfony/PHP, Django/Python  
 - **Bases de datos:** PostgreSQL, MySQL  
 - **DevOps & despliegue:** Docker, Vercel, Render, GitHub Actions  
 - **Seguridad:** JWT (HttpOnly refresh), reCAPTCHA, CORS, limitación de IP  
-- **Herramientas de trabajo:** Git/GitHub, Postman, VS Code, metodologías ágiles
+- **Herramientas de trabajo:** Git/GitHub, Postman, VS Code, Eclipse, metodologías ágiles
 
 ---
 
