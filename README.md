@@ -2,50 +2,53 @@
 # Maria Ocete
 
 Full-Stack Web Developer  
-React · Django · Spring Boot · Angular · Symfony · PostgreSQL ·MySQL · Docker 
+React · Django · Spring Boot · Angular · Symfony · PostgreSQL · MySQL · Docker 
 
 ---
 
-## Sobre mí
-Soy desarrolladora web con experiencia en la construcción de aplicaciones seguras y escalables, tanto en frontend como en backend. Me interesa especialmente la parte de **seguridad, testing y buenas prácticas**, y disfruto creando proyectos claros y bien documentados.  
-Me adapto con facilidad a entornos remotos y colaborativos y estoy en continua formación para mejorar mi perfil técnico.
+## About Me
+I am a web developer with experience building secure and scalable applications, both in frontend and backend. I am particularly interested in **security, testing, and best practices**, and I enjoy creating clear and well-documented projects.  
+I easily adapt to remote and collaborative environments and I am continuously improving my technical skills.  
 
 ---
 
-## Proyectos destacados
+## Featured Projects
 
-- **[Portfolio personal](https://github.com/MariaOcete/portfolio)** 
-  Sitio web bilingüe desarrollado con React y Tailwind, desplegado en Vercel con dominio propio. Incluye backend en Django para la gestión de formularios de contacto con reCAPTCHA y limitación de IP.
+- **[Personal Portfolio](https://github.com/MariaOcete/portfolio)**  
+  Bilingual website developed with React and Tailwind, deployed on Vercel with a custom domain. Includes a Django backend for handling contact forms with reCAPTCHA and IP restriction.  
 
 - **[Clinic Management App](https://github.com/MariaOcete/clinics-app)**  
-  Plataforma multi-rol (administrador, clínico, paciente) para la gestión de citas, facturación e historiales médicos. Tecnologías: React, Django REST y PostgreSQL. Incluye autenticación JWT y subida de archivos cifrados.
+  Multi-role platform (admin, clinician, patient) for managing appointments, billing, and medical records. Built with React, Django REST, and PostgreSQL. Features JWT authentication and encrypted file uploads.  
 
 - **[English Learning App](https://github.com/MariaOcete/english_web)**  
-  Aplicación educativa con roles de alumno y profesor, test de nivel y gestión de entregas. Desarrollada con Java, Spring Boot y MySQL.
+  Educational platform with teacher/student roles, placement test, and assignment management. Developed with Java, Spring Boot, and MySQL.  
 
 - **[Tasklist](https://github.com/MariaOcete/TaskList)**  
-  Mi primer proyecto con **Angular**, desarrollado durante mi formación.  Aplicación de lista de tareas con funcionalidades CRUD (crear, listar, editar y eliminar).  También exploré el uso de **Symfony/PHP** en el backend y el despliegue con **Docker Compose**.
+  My first project with **Angular**, built during my training.  
+  Task management application with CRUD functionalities (create, read, update, delete).  
+  I also explored using **Symfony/PHP** for the backend and deployment with **Docker Compose**.  
 
 - **Invoice App (CodeArts Solutions)**  
-  Desarrollo de un sistema completo de gestión de facturación y clientes con **Angular (frontend)** y **Symfony/PHP (backend)**, utilizando **PostgreSQL** y despliegue con **Docker**.  
-  Mi contribución principal fue la implementación del **Dashboard administrativo**, que incluía métricas mensuales y trimestrales de ingresos, facturas y estadísticas por gestor.  
-  También desarrollé el sistema de **autenticación segura con Access y Refresh Tokens (cookies HttpOnly)**, mejorando la seguridad y experiencia de usuario.
- (no público por confidencialidad)
+  Development of a complete invoicing and client management system with **Angular (frontend)** and **Symfony/PHP (backend)**, using **PostgreSQL** and deployed with **Docker**.  
+  My main contribution was the implementation of the **Admin Dashboard**, which included monthly and quarterly metrics for revenue, invoices, and manager statistics.  
+  I also developed the **secure authentication system with Access and Refresh Tokens (HttpOnly cookies)**, improving both security and user experience.  
+  *(not public due to confidentiality)*  
 
 ---
 
-## Tecnologías
+## Technologies
 
 - **Frontend:** React, Angular, Tailwind, HTML5, CSS3, JavaScript (ES6+)  
 - **Backend:** Django REST, Spring Boot/Java, Symfony/PHP, Django/Python  
-- **Bases de datos:** PostgreSQL, MySQL  
-- **DevOps & despliegue:** Docker, Vercel, Render, GitHub Actions  
-- **Seguridad:** JWT (HttpOnly refresh), reCAPTCHA, CORS, limitación de IP  
-- **Herramientas de trabajo:** Git/GitHub, Postman, VS Code, Eclipse, metodologías ágiles
+- **Databases:** PostgreSQL, MySQL  
+- **DevOps & Deployment:** Docker, Vercel, Render, GitHub Actions  
+- **Security:** JWT (HttpOnly refresh), reCAPTCHA, CORS, IP restriction  
+- **Tools:** Git/GitHub, Postman, VS Code, Eclipse, Agile methodologies  
 
 ---
 
-## Contacto
+## Contact
 - Email: mariaocete93@gmail.com  
 - LinkedIn: [linkedin.com/in/maria-ocete-martin](https://www.linkedin.com/in/maria-ocete-martin/)  
 - Portfolio: [mariaocete.com](https://mariaocete.com/)
+
