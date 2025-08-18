@@ -1,6 +1,30 @@
 
 # [Maria Ocete](https://mariaocete.com/)
 
+name: Generate GitHub Summary Cards
+on:
+  schedule:
+    - cron: "0 2 * * *"   # se actualiza cada día a las 02:00 UTC
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: MariaOcete
+          THEME: 2077   # prueba también 'tokyonight', 'dracula', 'github_dark', etc.
+
+## 📈 Estadísticas de GitHub
+
+![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=MariaOcete&theme=2077)
+![Most Used Languages](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=MariaOcete&theme=2077)
+
+
 ### 📊 GitHub Stats
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=MariaOcete&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight)
 
