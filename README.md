@@ -45,7 +45,7 @@ I easily adapt to remote and collaborative environments and I am continuously im
 - **[Personal Portfolio](https://github.com/MariaOcete/Portfolio-readme)**  
   Bilingual website developed with React and Tailwind, deployed on Vercel with a custom domain. Includes a Django backend for handling contact forms with reCAPTCHA and IP restriction.  
 
-- **[Clinic Management App](https://github.com/MariaOcete/clinics-app)**  (In progress)
+- **[Clinic Management App](https://github.com/MariaOcete/clinics-app)**  (In progress)  
   Multi-role platform (admin, clinician, patient) for managing appointments, billing, and medical records. Built with React, Django REST, and PostgreSQL. Features JWT authentication and encrypted file uploads.  
 
 - **[English Learning App](https://github.com/MariaOcete/english_web-readme/blob/main/README.md)**  
