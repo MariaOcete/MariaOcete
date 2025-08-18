@@ -23,7 +23,7 @@ Me adapto con facilidad a entornos remotos y colaborativos y estoy en continua f
 - **[English Learning App](https://github.com/MariaOcete/english_web)**  
   Aplicación educativa con roles de alumno y profesor, test de nivel y gestión de entregas. Desarrollada con Java, Spring Boot y MySQL.
 
-- **[Tasklist](https://github.com/MariaOcete/TaskList)**
+- **[Tasklist](https://github.com/MariaOcete/TaskList)**  
    Mi primer proyecto con **Angular**, desarrollado durante mi etapa de formación.  Aplicación de lista de tareas con funcionalidades CRUD (crear, listar, editar y eliminar).  También exploré el uso de **Symfony/PHP** en el backend (según versión del proyecto).
 
 
