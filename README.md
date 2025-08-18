@@ -2,7 +2,6 @@
 # Maria Ocete
 
 Full-Stack Web Developer  
-### Languages & Frameworks
 
 <p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React" title="React" height="28" />
@@ -28,10 +27,10 @@ Full-Stack Web Developer
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS3" title="CSS3" height="28" />
   &nbsp;&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript" title="JavaScript" height="28" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="Docker" title="Docker" height="28" />
 </p>
 
-
-React · Django · Spring Boot · Angular · Symfony · PostgreSQL · MySQL · Docker 
 
 ---
 
