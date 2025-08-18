@@ -2,7 +2,7 @@
 # Maria Ocete
 
 Full-Stack Web Developer  
-React · Django · Spring Boot · PostgreSQL · Docker
+React · Django · Spring Boot · Angular · Symfony · PostgreSQL ·MySQL · Docker 
 
 ---
 
