@@ -20,10 +20,10 @@ Me adapto con facilidad a entornos remotos y colaborativos y estoy en continua f
 - **[Clinic Management App](https://github.com/MariaOcete/clinics-app)**  
   Plataforma multi-rol (administrador, clínico, paciente) para la gestión de citas, facturación e historiales médicos. Tecnologías: React, Django REST y PostgreSQL. Incluye autenticación JWT y subida de archivos cifrados.
 
-- **[English Learning App](https://github.com/MariaOcete/english-learning-app)**  
+- **[English Learning App](https://github.com/MariaOcete/english_web)**  
   Aplicación educativa con roles de alumno y profesor, test de nivel y gestión de entregas. Desarrollada con Java, Spring Boot y MySQL.
 
-- **[Invoice Dashboard](https://github.com/MariaOcete/invoice-dashboard)**  
+- **[Invoice Dashboard](Codearts Solution)**  
   Dashboard de facturación y gestión de clientes creado en equipo, con Angular (frontend) y Symfony (backend). Base de datos en PostgreSQL y despliegue con Docker.
 
 ---
