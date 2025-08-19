@@ -2,24 +2,29 @@ name: Profile Summary Cards
 
 on:
   schedule:
-    - cron: '0 2 * * *'   # genera las tarjetas a diario
-  workflow_dispatch:       # te permite ejecutarlo a mano
+    - cron: "0 2 * * *"    # ejecuta cada día a las 02:00 UTC
+  workflow_dispatch:       # permite lanzarlo a mano desde Actions
 
+# Necesario para que el action pueda commitear las imágenes generadas
 permissions:
-  contents: write          # necesario para commitear las imágenes generadas
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
       # Genera y commitea las tarjetas en profile-summary-card-output/<theme>/
-      - uses: vn7n24fzkq/github-profile-summary-cards@release
+      - name: Generate GitHub Summary Cards (include private repos)
+        uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
-          # Si quieres contar repos privados, crea un PAT y guárdalo como ACCESS_TOKEN.
-          # Si no, puedes empezar con el token por defecto del repo:
-          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN || secrets.GITHUB_TOKEN }}
+          # Token automático para hacer commit en el repo
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Tu PAT (fine-grained o classic) con permisos de lectura
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         with:
           USERNAME: MariaOcete
-          THEME: 2077   # puedes cambiar a 'tokyonight', 'dracula', 'github_dark', etc.
+          THEME: 2077
+          # EXCLUDE: "Jupyter Notebook"   # opcional, para limpiar "Top Languages"
