@@ -1,6 +1,17 @@
 
 # [Maria Ocete](https://mariaocete.com/)  
 
+---
+### GitHub Stats
+
+![Profile Details](profile-summary-card-output/2077/0-profile-details.svg)
+![Stats](profile-summary-card-output/2077/3-stats.svg)
+![Top Languages by Repo](profile-summary-card-output/2077/1-repos-per-language.svg)
+![Top Languages by Commit](profile-summary-card-output/2077/2-most-commit-language.svg)
+![Productive Time](profile-summary-card-output/2077/4-productive-time.svg)
+
+---
+
 Full-Stack Web Developer  
 ### GitHub Stats
 
