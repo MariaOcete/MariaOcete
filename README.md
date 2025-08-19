@@ -1,16 +1,6 @@
 
 # [Maria Ocete](https://mariaocete.com/)  
 
----
-### GitHub Stats
-
-![Profile Details](profile-summary-card-output/2077/0-profile-details.svg)
-![Stats](profile-summary-card-output/2077/3-stats.svg)
-![Top Languages by Repo](profile-summary-card-output/2077/1-repos-per-language.svg)
-![Top Languages by Commit](profile-summary-card-output/2077/2-most-commit-language.svg)
-![Productive Time](profile-summary-card-output/2077/4-productive-time.svg)
-
----
 
 Full-Stack Web Developer  
 ### GitHub Stats
@@ -31,27 +21,6 @@ Full-Stack Web Developer
 ## About Me
 I am a web developer with experience building secure and scalable applications, both in frontend and backend. I am particularly interested in **security, testing, and best practices**, and I enjoy creating clear and well-documented projects.  
 I easily adapt to remote and collaborative environments and I am continuously improving my technical skills.  
-
----
-name: Generate GitHub Summary Cards
-on:
-  schedule:
-    - cron: "0 2 * * *"   # se actualiza cada día a las 02:00 UTC
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: vn7n24fzkq/github-profile-summary-cards@release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          USERNAME: MariaOcete
-          THEME: 2077   # prueba también 'tokyonight', 'dracula', 'github_dark', etc.
-
----
 
 ## Featured Projects
 
