@@ -23,7 +23,7 @@ jobs:
           # Token automático para hacer commit en el repo
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # Tu PAT (fine-grained o classic) con permisos de lectura
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          ACCESS_TOKEN: ${{ secrets.ACCESSTOKEN }}
         with:
           USERNAME: MariaOcete
           THEME: 2077
