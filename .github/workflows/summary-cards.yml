@@ -2,12 +2,11 @@ name: Profile Summary Cards
 
 on:
   schedule:
-    - cron: "0 2 * * *"    # ejecuta cada día a las 02:00 UTC
-  workflow_dispatch:       # permite lanzarlo a mano desde Actions
+    - cron: '0 2 * * *'   # todos los días 02:00 UTC
+  workflow_dispatch:
 
-# Necesario para que el action pueda commitear las imágenes generadas
 permissions:
-  contents: write
+  contents: write         # para commitear las imágenes generadas
 
 jobs:
   build:
@@ -16,15 +15,24 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # Genera y commitea las tarjetas en profile-summary-card-output/<theme>/
-      - name: Generate GitHub Summary Cards (include private repos)
+      # (Opcional) Comprobar que el PAT puede leer repos privados
+      - name: Sanity check private repos
+        env:
+          GH_TOKEN: ${{ secrets.ACCESSTOKEN }}   # tu PAT guardado como ACCESSTOKEN
+        run: |
+          echo "Private repos count:"
+          gh repo list ${GITHUB_REPOSITORY%%/*} --private --json name --jq 'length' || true
+
+      - name: Generate GitHub Summary Cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
-          # Token automático para hacer commit en el repo
+          # TOKEN para hacer el commit
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # Tu PAT (fine-grained o classic) con permisos de lectura
+          # PAT para que cuente privados (tu secret ACCESSTOKEN)
           ACCESS_TOKEN: ${{ secrets.ACCESSTOKEN }}
         with:
           USERNAME: MariaOcete
-          THEME: 2077
-          # EXCLUDE: "Jupyter Notebook"   # opcional, para limpiar "Top Languages"
+          # Puedes usar además:
+          # EXCLUDE: "Jupyter Notebook"   # para “limpiar” Top Languages
+          # AUTO_PUSH: "true"             # por defecto ya hace push
+          # BRANCH_NAME: "main"           # si tu default branch no es main
