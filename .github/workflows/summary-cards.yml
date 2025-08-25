@@ -14,6 +14,18 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # (Opcional) Comprobar que el secret llega a la job
+      - name: Check ACCESS_TOKEN presence (no value shown)
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        run: |
+          if [ -n "$ACCESS_TOKEN" ]; then
+            echo "ACCESS_TOKEN is present."
+          else
+            echo "ACCESS_TOKEN is MISSING" && exit 1
+          fi
+
+      # Contar privados con el token nuevo
       - name: Sanity check private repos
         env:
           GH_TOKEN: ${{ secrets.ACCESS_TOKEN }}
@@ -21,20 +33,20 @@ jobs:
           echo "Private repos count:"
           gh repo list ${{ github.repository_owner }} --visibility=private --json name -q 'length'
 
+      # Generar tarjetas (de momento SIN excluir lenguajes)
       - name: Generate GitHub Summary Cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # para hacer commit de los SVG
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}    # tu PAT (mejor clásico con repo)
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}   # TU PAT clásico nuevo
         with:
           USERNAME: MariaOcete
           BRANCH_NAME: main
           UTC_OFFSET: "+1"
-          # EXCLUDE: "HTML,CSS"   # ← añade esto solo cuando ya veas otros lenguajes
+          # EXCLUDE: "HTML,CSS"   # añade más tarde si ya ves otros lenguajes
 
+      # Ver qué archivos SVG se han creado
       - name: List generated files (2077)
         run: |
           echo "Generated files in 2077:"
           ls -la profile-summary-card-output/2077/
-
-
