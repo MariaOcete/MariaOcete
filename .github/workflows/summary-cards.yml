@@ -2,12 +2,11 @@ name: Profile Summary Cards
 
 on:
   schedule:
-    - cron: "0 2 * * *"   # todos los días a las 02:00 UTC
-  workflow_dispatch:       # permite lanzarlo a mano
+    - cron: '0 2 * * *'          # todos los días a las 02:00 UTC
+  workflow_dispatch:             # lanzarlo a mano
 
-# Necesario para que el action pueda commitear las imágenes generadas
 permissions:
-  contents: write
+  contents: write                # para commitear las imágenes generadas
 
 jobs:
   build:
@@ -16,26 +15,29 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # (Opcional) Comprobar que el PAT ve repos privados (sin warnings)
+      # Comprobamos que el PAT puede leer repos privados (usa --visibility=private)
       - name: Sanity check private repos
         env:
-          GH_TOKEN: ${{ secrets.ACCESSTOKEN }}   # tu PAT guardado como ACCESSTOKEN
+          GH_TOKEN: ${{ secrets.ACCESSTOKEN }}   # tu secret con el PAT
         run: |
           echo "Private repos count:"
           gh repo list ${{ github.repository_owner }} --visibility=private --json name -q 'length'
 
-      # Genera y commitea las tarjetas en profile-summary-card-output/<theme>/
-      - name: Generate GitHub Summary Cards (include private repos)
+      # Genera TODAS las tarjetas (deja EXCLUDE SIN usar por ahora)
+      - name: Generate GitHub Summary Cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
-          # Token automático para hacer commit en el repo
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # Tu PAT (fine-grained o classic) con permisos de lectura
-          ACCESS_TOKEN: ${{ secrets.ACCESSTOKEN }}
+          GITHUB_TOKEN:  ${{ secrets.GITHUB_TOKEN }}   # para hacer commit
+          ACCESS_TOKEN:  ${{ secrets.ACCESSTOKEN }}    # para contar privados
         with:
           USERNAME: MariaOcete
           BRANCH_NAME: main
-          EXCLUDE: "HTML,CSS"   # evita que HTML/CSS tapen los demás lenguajes
-          UTC_OFFSET: "+1"      # opcional: tu zona (Andalucía = UTC+1 en horario de verano)
-          THEME: 2077
+          AUTO_PUSH: "true"
+          UTC_OFFSET: "+1"
+          # EXCLUDE: "HTML"            # <- cuando veamos lenguajes, si quieres, prueba a ocultar SOLO HTML
 
+      # DEBUG: lista lo que se ha generado en el tema 2077
+      - name: List generated files (2077)
+        run: |
+          echo "Generated files in 2077:"
+          ls -la profile-summary-card-output/2077 || true
