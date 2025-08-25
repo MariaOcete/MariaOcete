@@ -16,7 +16,7 @@ jobs:
 
       - name: Sanity check private repos
         env:
-          GH_TOKEN: ${{ secrets.ACCESSTOKEN }}
+          GH_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         run: |
           echo "Private repos count:"
           gh repo list ${{ github.repository_owner }} --visibility=private --json name -q 'length'
@@ -25,7 +25,7 @@ jobs:
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # para hacer commit de los SVG
-          ACCESS_TOKEN: ${{ secrets.ACCESSTOKEN }}    # tu PAT (mejor clásico con repo)
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}    # tu PAT (mejor clásico con repo)
         with:
           USERNAME: MariaOcete
           BRANCH_NAME: main
