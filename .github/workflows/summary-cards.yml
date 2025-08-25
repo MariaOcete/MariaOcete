@@ -43,7 +43,7 @@ jobs:
           USERNAME: MariaOcete
           BRANCH_NAME: main
           UTC_OFFSET: "+1"
-          # EXCLUDE: "HTML,CSS"   # añade más tarde si ya ves otros lenguajes
+          EXCLUDE: "HTML,CSS"   # añade más tarde si ya ves otros lenguajes
 
       # Ver qué archivos SVG se han creado
       - name: List generated files (2077)
