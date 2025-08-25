@@ -5,6 +5,16 @@
 Full-Stack Web Developer  
 ### GitHub Stats
 
+### GitHub Stats
+
+![Profile Details](./profile-summary-card-output/2077/0-profile-details.svg)
+![Stats](./profile-summary-card-output/2077/3-stats.svg)
+![Top Languages by Repo](./profile-summary-card-output/2077/1-repos-per-language.svg)
+![Top Languages by Commit](./profile-summary-card-output/2077/2-most-commit-language.svg)
+![Commits (UTC+1)](./profile-summary-card-output/2077/4-productive-time.svg)
+
+----
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/MariaOcete/MariaOcete/main/profile-summary-card-output/2077/0-profile-details.svg" alt="Profile Details" />
 </p>
