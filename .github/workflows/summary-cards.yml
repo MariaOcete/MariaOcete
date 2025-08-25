@@ -2,42 +2,38 @@ name: Profile Summary Cards
 
 on:
   schedule:
-    - cron: '0 2 * * *'          # todos los días a las 02:00 UTC
-  workflow_dispatch:             # lanzarlo a mano
+    - cron: "0 2 * * *"     # diario 02:00 UTC
+  workflow_dispatch:
 
 permissions:
-  contents: write                # para commitear las imágenes generadas
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      # Comprobamos que el PAT puede leer repos privados (usa --visibility=private)
       - name: Sanity check private repos
         env:
-          GH_TOKEN: ${{ secrets.ACCESSTOKEN }}   # tu secret con el PAT
+          GH_TOKEN: ${{ secrets.ACCESSTOKEN }}
         run: |
           echo "Private repos count:"
           gh repo list ${{ github.repository_owner }} --visibility=private --json name -q 'length'
 
-      # Genera TODAS las tarjetas (deja EXCLUDE SIN usar por ahora)
       - name: Generate GitHub Summary Cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
-          GITHUB_TOKEN:  ${{ secrets.GITHUB_TOKEN }}   # para hacer commit
-          ACCESS_TOKEN:  ${{ secrets.ACCESSTOKEN }}    # para contar privados
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # para hacer commit de los SVG
+          ACCESS_TOKEN: ${{ secrets.ACCESSTOKEN }}    # tu PAT (mejor clásico con repo)
         with:
           USERNAME: MariaOcete
           BRANCH_NAME: main
-          AUTO_PUSH: "true"
           UTC_OFFSET: "+1"
-          # EXCLUDE: "HTML"            # <- cuando veamos lenguajes, si quieres, prueba a ocultar SOLO HTML
+          # EXCLUDE: "HTML,CSS"   # ← añade esto solo cuando ya veas otros lenguajes
 
-      # DEBUG: lista lo que se ha generado en el tema 2077
       - name: List generated files (2077)
         run: |
           echo "Generated files in 2077:"
-          ls -la profile-summary-card-output/2077 || true
+          ls -la profile-summary-card-output/2077/
+
