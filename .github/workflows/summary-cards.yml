@@ -2,11 +2,12 @@ name: Profile Summary Cards
 
 on:
   schedule:
-    - cron: '0 2 * * *'   # todos los días 02:00 UTC
-  workflow_dispatch:
+    - cron: "0 2 * * *"   # todos los días a las 02:00 UTC
+  workflow_dispatch:       # permite lanzarlo a mano
 
+# Necesario para que el action pueda commitear las imágenes generadas
 permissions:
-  contents: write         # para commitear las imágenes generadas
+  contents: write
 
 jobs:
   build:
@@ -15,24 +16,26 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # (Opcional) Comprobar que el PAT puede leer repos privados
+      # (Opcional) Comprobar que el PAT ve repos privados (sin warnings)
       - name: Sanity check private repos
         env:
           GH_TOKEN: ${{ secrets.ACCESSTOKEN }}   # tu PAT guardado como ACCESSTOKEN
         run: |
           echo "Private repos count:"
-          gh repo list ${GITHUB_REPOSITORY%%/*} --private --json name --jq 'length' || true
+          gh repo list ${{ github.repository_owner }} --visibility=private --json name -q 'length'
 
-      - name: Generate GitHub Summary Cards
+      # Genera y commitea las tarjetas en profile-summary-card-output/<theme>/
+      - name: Generate GitHub Summary Cards (include private repos)
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
-          # TOKEN para hacer el commit
+          # Token automático para hacer commit en el repo
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # PAT para que cuente privados (tu secret ACCESSTOKEN)
+          # Tu PAT (fine-grained o classic) con permisos de lectura
           ACCESS_TOKEN: ${{ secrets.ACCESSTOKEN }}
         with:
           USERNAME: MariaOcete
-          # Puedes usar además:
-          # EXCLUDE: "Jupyter Notebook"   # para “limpiar” Top Languages
-          # AUTO_PUSH: "true"             # por defecto ya hace push
-          # BRANCH_NAME: "main"           # si tu default branch no es main
+          BRANCH_NAME: main
+          EXCLUDE: "HTML,CSS"   # evita que HTML/CSS tapen los demás lenguajes
+          UTC_OFFSET: "+1"      # opcional: tu zona (Andalucía = UTC+1 en horario de verano)
+          THEME: 2077
+
