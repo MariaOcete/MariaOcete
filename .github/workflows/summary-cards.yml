@@ -37,3 +37,4 @@ jobs:
           echo "Generated files in 2077:"
           ls -la profile-summary-card-output/2077/
 
+
