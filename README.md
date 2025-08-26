@@ -1,7 +1,22 @@
-# [María Ocete](https://mariaocete.com/)
-<p align="center"><img src="./assets/role-banner.svg" alt="Full-Stack Web Developer" /></p>
 
-<!-- Tech icons (contraste alto, una línea) -->
+<p align="center">
+  <img src="./assets/role-banner.svg" alt="Full-Stack Web Developer" />
+</p>
+
+<p align="center">
+  <a href="https://mariaocete.com/">
+    <img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-mariaocete.com-00D1FF?style=for-the-badge&logo=icloud&logoColor=white">
+  </a>
+  <a href="mailto:mariaocete93@gmail.com">
+    <img alt="Email" src="https://img.shields.io/badge/Email-mariaocete93%40gmail.com-1f6feb?style=for-the-badge&logo=gmail&logoColor=white">
+  </a>
+  <a href="https://www.linkedin.com/in/maria-ocete-martin/">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-María%20Ocete-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
+  </a>
+</p>
+
+---
+<!-- Tech icons -->
 <p align="center">
   <img
     src="https://skillicons.dev/icons?i=react,angular,tailwind,js,django,python,spring,java,symfony,php,postgres,mysql,docker,vercel&theme=dark&perline=14"
