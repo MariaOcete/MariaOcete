@@ -4,34 +4,52 @@
       <stop offset="0" stop-color="#2F80ED"/>
       <stop offset="1" stop-color="#00D1FF"/>
     </linearGradient>
-    <!-- Máscara para revelar el subtítulo de izquierda a derecha -->
+
+    <!-- Máscara que "escribe" y "borra" en bucle -->
     <mask id="reveal" maskUnits="userSpaceOnUse">
-      <!-- Ajusta width final si cambias el texto: 760 cubre ~ 38-42 caracteres -->
-      <rect x="120" y="74" width="760" height="26" fill="#fff">
-        <animate attributeName="width" from="0" to="760" dur="2.8s" fill="freeze"/>
+      <!-- 820px cubre el subtítulo completo -->
+      <rect x="120" y="74" width="0" height="26" fill="#fff">
+        <!-- 0 → 820 → 0 con easing suave y en bucle -->
+        <animate attributeName="width"
+                 values="0;820;0"
+                 keyTimes="0;0.6;1"
+                 dur="6s"
+                 calcMode="spline"
+                 keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"
+                 repeatCount="indefinite"/>
       </rect>
     </mask>
   </defs>
 
+  <!-- Fondo -->
   <rect width="100%" height="100%" rx="18" fill="#0D1117"/>
+
+  <!-- Título -->
   <text x="50%" y="58" text-anchor="middle"
         font-family="Inter,Segoe UI,Roboto,Arial,sans-serif"
         font-size="34" font-weight="800" fill="url(#titleGrad)">
     Full-Stack Web Developer
   </text>
 
-  <!-- Grupo subtítulo con máscara -->
+  <!-- Subtítulo con máscara (B3) -->
   <g mask="url(#reveal)">
     <text x="50%" y="92" text-anchor="middle"
-          font-family="Inter,Segoe UI,Roboto,Arial,sans-serif"
-          font-size="16" fill="#E6EDF3">
-      Security · Performance · Best Practices
+          font-family="'Fira Code', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+          font-size="20" fill="#E6EDF3">
+      Security · Robust APIs · Intuitive UIs
     </text>
   </g>
 
-  <!-- Cursor que avanza durante el tipeo y luego parpadea -->
-  <rect id="caret" x="120" y="74" width="2" height="26" fill="#00D1FF">
-    <animate attributeName="x" from="120" to="880" dur="2.8s" fill="freeze"/>
-    <animate attributeName="opacity" values="1;0;1" dur="0.9s" begin="2.8s" repeatCount="indefinite"/>
+  <!-- Cursor que acompaña el typing ida y vuelta -->
+  <rect x="120" y="74" width="2" height="26" fill="#E6EDF3">
+    <animate attributeName="x"
+             values="120;940;120"
+             keyTimes="0;0.6;1"
+             dur="6s"
+             calcMode="spline"
+             keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"
+             repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
   </rect>
 </svg>
+
