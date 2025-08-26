@@ -2,17 +2,7 @@
 <p><img src="./assets/role-banner.svg" alt="Full-Stack Web Developer" /></p>
 
 
-  
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&color=00D1FF&vCenter=true&width=520&lines=FSecurity+%7C+Testing+%7C+Best+Practices)](https://git.io/typing-svg)
-
-
-
----
-
-**Full-Stack Web Developer** focused on **security, testing, and best practices**.  
-I enjoy building clear, well-documented, and maintainable products. Comfortable working remotely in cross-functional teams.
-
-<p align="left">
+<p align="center">
   <!-- Frontend -->
   <img alt="React" title="React" height="32" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
   <img alt="Angular" title="Angular" height="32" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angularjs/angularjs-original.svg" />
