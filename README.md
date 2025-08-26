@@ -1,5 +1,40 @@
 # [María Ocete](https://mariaocete.com/)
 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&color=00D1FF&vCenter=true&width=520&lines=Full-Stack+Web+Developer;Security+%7C+Testing+%7C+Best+Practices)](https://git.io/typing-svg)
+![Role](https://img.shields.io/badge/Full%E2%80%91Stack_Web_Developer-00D1FF?style=for-the-badge&labelColor=0D1117&logo=devdotto&logoColor=FFFFFF)
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF57C1,100:00D1FF&height=140&section=header&text=Full-Stack%20Web%20Developer&fontSize=30&fontAlignY=35&desc=Security%20%7C%20Testing%20%7C%20Best%20Practices&descAlignY=60" alt="Full-Stack Web Developer - banner" />
+</p>
+
+  <p align="left">
+  <img height="14" src="https://img.shields.io/badge/-_-?style=for-the-badge&color=ff57c1">
+  <img height="14" src="https://img.shields.io/badge/-_-?style=for-the-badge&color=ca60d8">
+  <img height="14" src="https://img.shields.io/badge/-_-?style=for-the-badge&color=00d1ff">
+</p>
+<strong>Full-Stack Web Developer</strong><br>
+<sub>Security · Testing · Best Practices</sub>
+
+<p align="left">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=800&color=00D1FF&center=false&vCenter=true&multiline=true&repeat=true&width=520&height=50&lines=Full-Stack+Web+Developer" alt="Typing SVG" />
+  </a>
+  <br><sub>Security · Testing · Best Practices</sub>
+</p>
+
+<p>
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:FF57C1,100:00D1FF&height=90&text=Full-Stack%20Web%20Developer&fontSize=28&fontAlignY=50&fontColor=FFFFFF" alt="banner" />
+  <br><sub>Security · Testing · Best Practices</sub>
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/Full-Stack_Web_Developer-0D1117?style=flat-square&labelColor=0D1117&color=00D1FF" />
+  <br><sub>Security · Testing · Best Practices</sub>
+</p>
+
+
+---
+
 **Full-Stack Web Developer** focused on **security, testing, and best practices**.  
 I enjoy building clear, well-documented, and maintainable products. Comfortable working remotely in cross-functional teams.
 
