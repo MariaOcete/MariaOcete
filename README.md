@@ -11,21 +11,27 @@
 
 ---
 
-## 👋 About me 
-- 🔐 **Security-first** (JWT HttpOnly, CORS, reCAPTCHA, CSRF donde aplica)  
-- ⚙️ **Robust APIs** (Django REST, Spring Boot, Symfony/PHP)  
-- 🖥️ **Intuitive UIs** (React, Angular, Tailwind)  
-- 🚀 **Deploys** (Docker · Vercel/Render) & **clean docs**
+## 🧠 How I Work (at a glance)
+
+- 🔐 **Security-first** — JWT (HttpOnly refresh), strict CORS, reCAPTCHA, CSRF where applicable.  
+- ⚙️ **Robust APIs** — Django REST, Spring Boot, Symfony/PHP.  
+- ✨ **Intuitive UIs** — React, Angular, Tailwind.  
+- 🚀 **Deploys & Docs** — Docker · Vercel/Render · clean, pragmatic documentation.  
+- 🧪 **Quality** — tests where it makes sense, PR reviews, conventions, clear code.  
+- ♿ **Accessibility** — i18n, responsive design, contrast & keyboard navigation.
 
 ---
 
 ## 📊 GitHub Stats
-
-<p align="center">
-  <img src="./profile-summary-card-output/2077/0-profile-details.svg" alt="Profile details" height="160" />
-  <img src="./profile-summary-card-output/2077/3-stats.svg" alt="Stats" height="160" />
-  <img src="./profile-summary-card-output/2077/4-productive-time.svg" alt="Commits by hour" height="160" />
-</p>
+<table align="center">
+  <tr>
+    <td colspan="2"><img src="./profile-summary-card-output/2077/0-profile-details.svg" alt="Profile details" width="100%"></td>
+  </tr>
+  <tr>
+    <td><img src="./profile-summary-card-output/2077/3-stats.svg" alt="Stats" width="100%"></td>
+    <td><img src="./profile-summary-card-output/2077/4-productive-time.svg" alt="Commits by hour" width="100%"></td>
+  </tr>
+</table>
 
 > *Note:* I hide “Top Languages” because it doesn’t reflect private work accurately.  
 > For real code samples, check the featured projects below. 👇
@@ -34,7 +40,7 @@
 
 ## 🚀 Featured Projects
 
-- 🧭 **[Personal Portfolio](https://github.com/MariaOcete/Portfolio-readme)**
+- 🧭 **[Personal Portfolio](https://github.com/MariaOcete/Portfolio-readme)**  
   Bilingual website built with **React + Tailwind**, deployed on **Vercel** with a custom domain.  
   Includes a **Django** backend for contact form (**reCAPTCHA**, IP restriction).
 
@@ -54,15 +60,6 @@
 
 ---
 
-## 🧠 How I Work
-
-- 🔐 **Security:** JWT (HttpOnly refresh), strict CORS, input sanitization, CSRF where applicable.  
-- 🧪 **Quality:** tests where it makes sense, PR reviews, conventions, and clear documentation.  
-- ⚙️ **DevOps:** CI with GitHub Actions; deployments to **Vercel/Render**; basic logs/monitoring.  
-- ♿ **UX/Accessibility:** i18n, responsive design, contrast & keyboard navigation.
-
----
-
 ## 🧰 Tech Summary
 
 🎨 **Frontend:** React, Angular, Tailwind, HTML5, CSS3, JavaScript (ES6+).  
@@ -79,3 +76,4 @@
 - 🌐 **[mariaocete.com](https://mariaocete.com/)**
 - ✉️ **mariaocete93@gmail.com**
 - 🔗 **[linkedin.com/in/maria-ocete-martin](https://www.linkedin.com/in/maria-ocete-martin/)**
+
