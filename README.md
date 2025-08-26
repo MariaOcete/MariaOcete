@@ -1,99 +1,88 @@
-# Maria Ocete — Full-Stack Web Developer
+# [María Ocete](https://mariaocete.com/)
+
+**Full-Stack Web Developer** — enfoque en **seguridad, testing y buenas prácticas**.  
+Me gusta crear productos claros, documentados y fáciles de mantener. Trabajo bien en remoto y en equipos cross-funcionales.
 
 <p align="left">
-  <a href="https://mariaocete.com/"><img src="https://img.shields.io/badge/Portfolio-mariaocete.com-0ea5e9?style=for-the-badge" /></a>
-  <a href="mailto:mariaocete93@gmail.com"><img src="https://img.shields.io/badge/Email-mariaocete93%40gmail.com-10b981?style=for-the-badge" /></a>
-  <a href="https://www.linkedin.com/in/maria-ocete-martin/"><img src="https://img.shields.io/badge/LinkedIn-Maria%20Ocete-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-</p>
-
-> I build **secure, well-tested, scalable** web apps — frontend + backend.  
-> Focused on **best practices, DX, and clean documentation**.
-
----
-
-## Tech I use
-
-<p>
   <!-- Frontend -->
-  <img height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React" />
-  <img height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" alt="Vite" />
-  <img height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="TailwindCSS" />
-  <img height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript" />
+  <img alt="React" title="React" height="32" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+  <img alt="Angular" title="Angular" height="32" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angularjs/angularjs-original.svg" />
+  <img alt="Tailwind" title="Tailwind CSS" height="32" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
+  <img alt="JavaScript" title="JavaScript" height="32" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
   <!-- Backend -->
-  <img height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" alt="Django" />
-  <img height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" />
-  <img height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" alt="Spring" />
-  <img height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="Java" />
-  <img height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/symfony/symfony-original.svg" alt="Symfony" />
-  <img height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" alt="PHP" />
-  <!-- Data -->
-  <img height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" />
-  <img height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="MySQL" />
-  <!-- DevOps -->
-  <img height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="Docker" />
-  <img height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg" alt="Vercel" />
+  <img alt="Django" title="Django" height="32" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" />
+  <img alt="Python" title="Python" height="32" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
+  <img alt="Spring" title="Spring Boot" height="32" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" />
+  <img alt="Java" title="Java" height="32" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" />
+  <img alt="Symfony" title="Symfony" height="32" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/symfony/symfony-original.svg" />
+  <img alt="PHP" title="PHP" height="32" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" />
+  <!-- DB & DevOps -->
+  <img alt="PostgreSQL" title="PostgreSQL" height="32" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" />
+  <img alt="MySQL" title="MySQL" height="32" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" />
+  <img alt="Docker" title="Docker" height="32" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" />
+  <img alt="Vercel" title="Vercel" height="32" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg" />
 </p>
 
 ---
 
-## About Me
-I’m a full-stack developer who enjoys designing **secure**, **tested** and **well-documented** codebases.  
-Comfortable working across **React/Tailwind** on the frontend and **Django / Spring / Symfony** on the backend.  
-I value **clarity, maintainability, automation** and a healthy PR culture.
+## GitHub Stats
 
-**Highlights**
-- ✅ Security first: JWT (HttpOnly refresh), CORS, rate-limiting, reCAPTCHA, IP restrictions  
-- ✅ CI/CD: GitHub Actions for builds, tests and deploys  
-- ✅ Documentation & testing: clear READMEs, API docs, unit/integration tests
+![Profile Details](./profile-summary-card-output/2077/0-profile-details.svg)
+![Stats](./profile-summary-card-output/2077/3-stats.svg)
+![Commits (UTC +1)](./profile-summary-card-output/2077/4-productive-time.svg)
+
+> Nota: oculto “Top Languages” porque no refleja bien mis privados; si quieres ver código real, mira los proyectos de abajo 👇
 
 ---
 
-## Featured Projects
+## Proyectos Destacados
 
-### **Personal Portfolio** — [Repo](https://github.com/MariaOcete/Portfolio-readme) • [Live](https://mariaocete.com/)
-- **Stack:** React, Vite, Tailwind, Vercel • Django (contact API), reCAPTCHA, IP restriction  
-- **What I did:** bilingual site, performance-oriented build, secure contact endpoint  
-- **Ops:** custom domain on Vercel, CI deploy with GitHub Actions
+- **Portfolio** — [repo](https://github.com/MariaOcete/Portfolio-readme) · [web](https://mariaocete.com/)  
+  *React + Tailwind · Django (backend de contacto)* · Vercel · reCAPTCHA · **IP rate-limit**  
+  Sitio bilingüe con formulario seguro (SMTP, CORS, rate limiting y CAPTCHA). Dominio y SSL propios.
 
-### **Clinic Management App** *(in progress)* — [Repo](https://github.com/MariaOcete/clinics-app)
-- **Stack:** React, Django REST, PostgreSQL • JWT Auth, encrypted uploads  
-- **Features:** roles (admin/clinician/patient), appointments, billing, records  
-- **Focus:** API design, security, dashboard UX for day-to-day workflows
+- **Clinic Management App** *(en progreso)* — [repo](https://github.com/MariaOcete/clinics-app)  
+  *React · Django REST · PostgreSQL · JWT (HttpOnly)*  
+  Multirrol (admin/doctor/paciente), citas, facturación y expedientes con ficheros cifrados.
 
-### **English Learning App** — [README](https://github.com/MariaOcete/english_web-readme/blob/main/README.md)
-- **Stack:** Java, Spring Boot, MySQL  
-- **Features:** teacher/student roles, placement test, assignment mgmt  
-- **Focus:** domain modeling, clean architecture, secure auth
+- **English Learning App** — [readme](https://github.com/MariaOcete/english_web-readme/blob/main/README.md)  
+  *Java · Spring Boot · MySQL*  
+  Roles profesor/alumno, test de nivel y gestión de tareas.
 
-### **Tasklist** — [Repo](https://github.com/MariaOcete/TaskList)
-- **Stack:** Angular • (experiments with Symfony/PHP backend + Docker Compose)  
-- **What I learned:** CRUD patterns, component design, basic CI
+- **TaskList** — [repo](https://github.com/MariaOcete/TaskList)  
+  *Angular · (POC) Symfony/PHP backend · Docker Compose*  
+  CRUD de tareas. Primer proyecto de formación.
 
-### **Invoice App (CodeArts Solutions)** *(private for confidentiality)*
-- **Stack:** Angular (FE), Symfony/PHP (BE), PostgreSQL, Docker  
-- **My part:** **Admin Dashboard** with monthly/quarterly KPIs (revenue, invoices, manager stats)  
-- **Security:** **Access/Refresh tokens in HttpOnly cookies**
+- **Invoice App (CodeArts Solutions)** *(privado por confidencialidad)*  
+  *Angular (FE) · Symfony/PHP (BE) · PostgreSQL · Docker*  
+  **Dashboard** con métricas mensuales/trimestrales y **auth segura** con Access/Refresh Tokens (HttpOnly).
 
 ---
 
-## By the numbers
-> I keep the language charts hidden on purpose; these are the useful ones.
+## Cómo trabajo
 
-<p align="left">
-  <img src="./profile-summary-card-output/2077/0-profile-details.svg" alt="Profile Details" />
-</p>
-
-<p align="left">
-  <img src="./profile-summary-card-output/2077/3-stats.svg" alt="Stats" />
-  <img src="./profile-summary-card-output/2077/4-productive-time.svg" alt="Commits (UTC +1)" />
-</p>
+- **Seguridad**: JWT con refresh en cookies HttpOnly, CORS duro, saneo de entrada, protección CSRF donde aplica.  
+- **Calidad**: tests (unidad/integración), revisiones de PR, convenciones de estilo y documentación.  
+- **DevOps**: CI con GitHub Actions, despliegues a Vercel/Render, logs y monitorización básicos.  
+- **UX/Accesibilidad**: i18n, diseño responsive, atención a contrastes y teclado.
 
 ---
 
-## Contact
+## Tecnologías
+
+**Frontend**: React, Angular, Tailwind, HTML5, CSS3, JS (ES6+).  
+**Backend**: Django REST, Spring Boot/Java, Symfony/PHP, Python.  
+**DB**: PostgreSQL, MySQL.  
+**Infra/DevOps**: Docker, Vercel, Render, GitHub Actions.  
+**Security**: JWT (HttpOnly), reCAPTCHA, CORS, IP restriction.  
+**Tools**: Git/GitHub, Postman, VS Code, Eclipse, Agile.
+
+---
+
+## Contacto
+
 - 🌐 Portfolio: **[mariaocete.com](https://mariaocete.com/)**
 - ✉️ Email: **mariaocete93@gmail.com**
-- 💼 LinkedIn: **[linkedin.com/in/maria-ocete-martin](https://www.linkedin.com/in/maria-ocete-martin/)**
-
+- 🔗 LinkedIn: **[linkedin.com/in/maria-ocete-martin](https://www.linkedin.com/in/maria-ocete-martin/)**
 
 
