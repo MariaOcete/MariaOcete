@@ -1,11 +1,6 @@
 
 # [Maria Ocete](https://mariaocete.com/)  
 
-![Top Languages by Repo](https://raw.githubusercontent.com/MariaOcete/MariaOcete/main/profile-summary-card-output/2077/1-repos-per-language.svg?nocache=1)
-![Top Languages by Commit](https://raw.githubusercontent.com/MariaOcete/MariaOcete/main/profile-summary-card-output/2077/2-most-commit-language.svg?nocache=1)
-
-----
-
 ![Profile Details](./profile-summary-card-output/2077/0-profile-details.svg)
 ![Stats](./profile-summary-card-output/2077/3-stats.svg)
 ![Top Languages by Repo](./profile-summary-card-output/2077/1-repos-per-language.svg)
