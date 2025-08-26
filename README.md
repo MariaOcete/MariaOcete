@@ -1,36 +1,10 @@
 # [María Ocete](https://mariaocete.com/)
+<p><img src="./assets/role-banner.svg" alt="Full-Stack Web Developer" /></p>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&color=00D1FF&vCenter=true&width=520&lines=Full-Stack+Web+Developer;Security+%7C+Testing+%7C+Best+Practices)](https://git.io/typing-svg)
-![Role](https://img.shields.io/badge/Full%E2%80%91Stack_Web_Developer-00D1FF?style=for-the-badge&labelColor=0D1117&logo=devdotto&logoColor=FFFFFF)
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF57C1,100:00D1FF&height=140&section=header&text=Full-Stack%20Web%20Developer&fontSize=30&fontAlignY=35&desc=Security%20%7C%20Testing%20%7C%20Best%20Practices&descAlignY=60" alt="Full-Stack Web Developer - banner" />
-</p>
+  
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&color=00D1FF&vCenter=true&width=520&lines=FSecurity+%7C+Testing+%7C+Best+Practices)](https://git.io/typing-svg)
 
-  <p align="left">
-  <img height="14" src="https://img.shields.io/badge/-_-?style=for-the-badge&color=ff57c1">
-  <img height="14" src="https://img.shields.io/badge/-_-?style=for-the-badge&color=ca60d8">
-  <img height="14" src="https://img.shields.io/badge/-_-?style=for-the-badge&color=00d1ff">
-</p>
-<strong>Full-Stack Web Developer</strong><br>
-<sub>Security · Testing · Best Practices</sub>
-
-<p align="left">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=800&color=00D1FF&center=false&vCenter=true&multiline=true&repeat=true&width=520&height=50&lines=Full-Stack+Web+Developer" alt="Typing SVG" />
-  </a>
-  <br><sub>Security · Testing · Best Practices</sub>
-</p>
-
-<p>
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:FF57C1,100:00D1FF&height=90&text=Full-Stack%20Web%20Developer&fontSize=28&fontAlignY=50&fontColor=FFFFFF" alt="banner" />
-  <br><sub>Security · Testing · Best Practices</sub>
-</p>
-
-<p>
-  <img src="https://img.shields.io/badge/Full-Stack_Web_Developer-0D1117?style=flat-square&labelColor=0D1117&color=00D1FF" />
-  <br><sub>Security · Testing · Best Practices</sub>
-</p>
 
 
 ---
@@ -73,25 +47,25 @@ I enjoy building clear, well-documented, and maintainable products. Comfortable 
 
 ## Featured Projects
 
-- **Personal Portfolio** — [repo](https://github.com/MariaOcete/Portfolio-readme) · [website](https://mariaocete.com/)  
-  *React + Tailwind · Django contact backend* · Vercel · reCAPTCHA · **IP rate-limit**  
-  Bilingual site with a hardened contact form (SMTP, CORS, rate limiting, CAPTCHA). Custom domain & SSL.
+- **[Personal Portfolio](https://github.com/MariaOcete/Portfolio-readme)**  
+  Bilingual website developed with React and Tailwind, deployed on Vercel with a custom domain. Includes a Django backend for handling contact forms with reCAPTCHA and IP restriction.  
 
-- **Clinic Management App** *(in progress)* — [repo](https://github.com/MariaOcete/clinics-app)  
-  *React · Django REST · PostgreSQL · JWT (HttpOnly)*  
-  Multi-role (admin/doctor/patient); appointments, billing, and encrypted medical records.
+- **[Clinic Management App](https://github.com/MariaOcete/clinics-app)**  (In progress)  
+  Multi-role platform (admin, clinician, patient) for managing appointments, billing, and medical records. Built with React, Django REST, and PostgreSQL. Features JWT authentication and encrypted file uploads.  
 
-- **English Learning App** — [readme](https://github.com/MariaOcete/english_web-readme/blob/main/README.md)  
-  *Java · Spring Boot · MySQL*  
-  Teacher/student roles, placement test, and assignment management.
+- **[English Learning App](https://github.com/MariaOcete/english_web-readme/blob/main/README.md)**  
+  Educational platform with teacher/student roles, placement test, and assignment management. Developed with Java, Spring Boot, and MySQL.  
 
-- **TaskList** — [repo](https://github.com/MariaOcete/TaskList)  
-  *Angular · (POC) Symfony/PHP backend · Docker Compose*  
-  CRUD task manager. First training project.
+- **[Tasklist](https://github.com/MariaOcete/TaskList)**  
+  My first project with **Angular**, built during my training.  
+  Task management application with CRUD functionalities (create, read, update, delete).  
+  I also explored using **Symfony/PHP** for the backend and deployment with **Docker Compose**.  
 
-- **Invoice App (CodeArts Solutions)** *(private, NDA)*  
-  *Angular (FE) · Symfony/PHP (BE) · PostgreSQL · Docker*  
-  **Admin dashboard** with monthly/quarterly metrics; **secure auth** with Access/Refresh Tokens (HttpOnly).
+- **Invoice App (CodeArts Solutions)**  
+  Development of a complete invoicing and client management system with **Angular (frontend)** and **Symfony/PHP (backend)**, using **PostgreSQL** and deployed with **Docker**.  
+  My main contribution was the implementation of the **Admin Dashboard**, which included monthly and quarterly metrics for revenue, invoices, and manager statistics.  
+  I also developed the **secure authentication system with Access and Refresh Tokens (HttpOnly cookies)**, improving both security and user experience.  
+  *(not public due to confidentiality)*  
 
 ---
 
