@@ -10,30 +10,6 @@
 ---
 
 Full-Stack Web Developer  
-### GitHub Stats
-
-### GitHub Stats
-
-![Profile Details](./profile-summary-card-output/2077/0-profile-details.svg)
-![Stats](./profile-summary-card-output/2077/3-stats.svg)
-![Top Languages by Repo](./profile-summary-card-output/2077/1-repos-per-language.svg)
-![Top Languages by Commit](./profile-summary-card-output/2077/2-most-commit-language.svg)
-![Commits (UTC+1)](./profile-summary-card-output/2077/4-productive-time.svg)
-
-----
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/MariaOcete/MariaOcete/main/profile-summary-card-output/2077/0-profile-details.svg" alt="Profile Details" />
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/MariaOcete/MariaOcete/main/profile-summary-card-output/2077/3-stats.svg" alt="GitHub Stats" />
-  <img src="https://raw.githubusercontent.com/MariaOcete/MariaOcete/main/profile-summary-card-output/2077/1-repos-per-language.svg" alt="Top Languages by Repo" />
-  <img src="https://raw.githubusercontent.com/MariaOcete/MariaOcete/main/profile-summary-card-output/2077/2-most-commit-language.svg" alt="Top Languages by Commit" />
-</p>
-
-
----
 
 ## About Me
 I am a web developer with experience building secure and scalable applications, both in frontend and backend. I am particularly interested in **security, testing, and best practices**, and I enjoy creating clear and well-documented projects.  
