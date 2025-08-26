@@ -1,37 +1,25 @@
 # [María Ocete](https://mariaocete.com/)
 <p align="center"><img src="./assets/role-banner.svg" alt="Full-Stack Web Developer" /></p>
 
-<!-- Tech icons (Devicon + tiles para mejor contraste) -->
+<!-- Tech icons (contraste alto, una línea) -->
 <p align="center">
-  <!-- Frontend -->
-  <img alt="React" title="React" height="32" style="background:#0f1420;border-radius:10px;padding:6px;margin:3px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
-  <img alt="Angular" title="Angular" height="32" style="background:#0f1420;border-radius:10px;padding:6px;margin:3px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angularjs/angularjs-original.svg" />
-  <img alt="Tailwind CSS" title="Tailwind CSS" height="32" style="background:#0f1420;border-radius:10px;padding:6px;margin:3px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
-  <img alt="JavaScript" title="JavaScript" height="32" style="background:#0f1420;border-radius:10px;padding:6px;margin:3px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
-  <!-- Backend -->
-  <img alt="Django" title="Django" height="32" style="background:#0f1420;border-radius:10px;padding:6px;margin:3px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" />
-  <img alt="Python" title="Python" height="32" style="background:#0f1420;border-radius:10px;padding:6px;margin:3px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
-  <img alt="Spring Boot" title="Spring Boot" height="32" style="background:#0f1420;border-radius:10px;padding:6px;margin:3px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" />
-  <img alt="Java" title="Java" height="32" style="background:#0f1420;border-radius:10px;padding:6px;margin:3px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" />
-  <img alt="Symfony" title="Symfony" height="32" style="background:#0f1420;border-radius:10px;padding:6px;margin:3px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/symfony/symfony-original.svg" />
-  <img alt="PHP" title="PHP" height="32" style="background:#0f1420;border-radius:10px;padding:6px;margin:3px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" />
-  <!-- DB & DevOps -->
-  <img alt="PostgreSQL" title="PostgreSQL" height="32" style="background:#0f1420;border-radius:10px;padding:6px;margin:3px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" />
-  <img alt="MySQL" title="MySQL" height="32" style="background:#0f1420;border-radius:10px;padding:6px;margin:3px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" />
-  <img alt="Docker" title="Docker" height="32" style="background:#0f1420;border-radius:10px;padding:6px;margin:3px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" />
-  <img alt="Vercel" title="Vercel" height="32" style="background:#0f1420;border-radius:10px;padding:6px;margin:3px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg" />
+  <img
+    src="https://skillicons.dev/icons?i=react,angular,tailwind,js,django,python,spring,java,symfony,php,postgres,mysql,docker,vercel&theme=dark&perline=14"
+    alt="React, Angular, Tailwind, JS, Django, Python, Spring, Java, Symfony, PHP, PostgreSQL, MySQL, Docker, Vercel"
+  />
 </p>
 
 ---
 
-## 👋 About me
-Web development brings together everything I love: **problem solving, creativity, and continuous learning**.  
-I’ve worked on real projects with **Angular, Symfony, Java/MySQL** (dashboards, billing, secure auth).  
-Right now I’m focusing on **Python, React, and Security** — always aiming for clean, well-documented solutions and a great UX.
+##👋 About me
+- 🔐 **Security-first** (JWT HttpOnly, CORS, reCAPTCHA, CSRF donde aplica)  
+- ⚙️ **Robust APIs** (Django REST, Spring Boot, Symfony/PHP)  
+- 🖥️ **Intuitive UIs** (React, Angular, Tailwind)  
+- 🚀 **Deploys** (Docker · Vercel/Render) & **clean docs**
 
 ---
 
-## 📊 GitHub Stats
+##📊 GitHub Stats
 
 <p align="center">
   <img src="./profile-summary-card-output/2077/0-profile-details.svg" alt="Profile details" height="160" />
@@ -44,7 +32,7 @@ Right now I’m focusing on **Python, React, and Security** — always aiming fo
 
 ---
 
-## 🚀 Featured Projects
+##🚀 Featured Projects
 
 - **[Personal Portfolio](https://github.com/MariaOcete/Portfolio-readme)**  
   Bilingual website built with **React + Tailwind**, deployed on **Vercel** with a custom domain.  
@@ -66,7 +54,7 @@ Right now I’m focusing on **Python, React, and Security** — always aiming fo
 
 ---
 
-## 🧠 How I Work
+##🧠 How I Work
 
 - **Security:** JWT (HttpOnly refresh), strict CORS, input sanitization, CSRF where applicable.  
 - **Quality:** tests where it makes sense, PR reviews, conventions, and clear documentation.  
@@ -75,7 +63,7 @@ Right now I’m focusing on **Python, React, and Security** — always aiming fo
 
 ---
 
-## 🧰 Tech Summary
+##🧰 Tech Summary
 
 **Frontend:** React, Angular, Tailwind, HTML5, CSS3, JavaScript (ES6+).  
 **Backend:** Django REST, Spring Boot/Java, Symfony/PHP, Python.  
@@ -86,8 +74,9 @@ Right now I’m focusing on **Python, React, and Security** — always aiming fo
 
 ---
 
-## 📬 Contact
+##📬 Contact
 
 - 🌐 **[mariaocete.com](https://mariaocete.com/)**
 - ✉️ **mariaocete93@gmail.com**
 - 🔗 **[linkedin.com/in/maria-ocete-martin](https://www.linkedin.com/in/maria-ocete-martin/)**
+
