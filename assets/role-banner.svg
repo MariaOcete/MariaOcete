@@ -4,14 +4,13 @@
       <stop offset="0" stop-color="#2F80ED"/>
       <stop offset="1" stop-color="#00D1FF"/>
     </linearGradient>
-    <linearGradient id="moveLine" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1000" y2="0">
-      <stop offset="0" stop-color="#00D1FF" stop-opacity="0.1"/>
-      <stop offset="0.5" stop-color="#00D1FF" stop-opacity="0.9"/>
-      <stop offset="1" stop-color="#00D1FF" stop-opacity="0.1"/>
-      <animate attributeName="gradientTransform"
-               values="translate(-1000,0); translate(1000,0)"
-               dur="4.8s" repeatCount="indefinite"/>
-    </linearGradient>
+    <!-- Máscara para revelar el subtítulo de izquierda a derecha -->
+    <mask id="reveal" maskUnits="userSpaceOnUse">
+      <!-- Ajusta width final si cambias el texto: 760 cubre ~ 38-42 caracteres -->
+      <rect x="120" y="74" width="760" height="26" fill="#fff">
+        <animate attributeName="width" from="0" to="760" dur="2.8s" fill="freeze"/>
+      </rect>
+    </mask>
   </defs>
 
   <rect width="100%" height="100%" rx="18" fill="#0D1117"/>
@@ -21,12 +20,18 @@
     Full-Stack Web Developer
   </text>
 
-  <text id="sub" x="50%" y="90" text-anchor="middle"
-        font-family="Inter,Segoe UI,Roboto,Arial,sans-serif"
-        font-size="16" fill="#A9B2BC">
-    Security · Performance · Best Practices
-  </text>
+  <!-- Grupo subtítulo con máscara -->
+  <g mask="url(#reveal)">
+    <text x="50%" y="92" text-anchor="middle"
+          font-family="Inter,Segoe UI,Roboto,Arial,sans-serif"
+          font-size="16" fill="#E6EDF3">
+      Security · Performance · Best Practices
+    </text>
+  </g>
 
-  <!-- Línea animada bajo el subtítulo -->
-  <rect x="200" y="98" width="600" height="2" fill="url(#moveLine)" rx="1"/>
+  <!-- Cursor que avanza durante el tipeo y luego parpadea -->
+  <rect id="caret" x="120" y="74" width="2" height="26" fill="#00D1FF">
+    <animate attributeName="x" from="120" to="880" dur="2.8s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;0;1" dur="0.9s" begin="2.8s" repeatCount="indefinite"/>
+  </rect>
 </svg>
