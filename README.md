@@ -1,13 +1,13 @@
 # [María Ocete](https://mariaocete.com/)
 
-**Full-Stack Web Developer** — enfoque en **seguridad, testing y buenas prácticas**.  
-Me gusta crear productos claros, documentados y fáciles de mantener. Trabajo bien en remoto y en equipos cross-funcionales.
+**Full-Stack Web Developer** focused on **security, testing, and best practices**.  
+I enjoy building clear, well-documented, and maintainable products. Comfortable working remotely in cross-functional teams.
 
 <p align="left">
   <!-- Frontend -->
   <img alt="React" title="React" height="32" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
   <img alt="Angular" title="Angular" height="32" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angularjs/angularjs-original.svg" />
-  <img alt="Tailwind" title="Tailwind CSS" height="32" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
+  <img alt="Tailwind CSS" title="Tailwind CSS" height="32" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
   <img alt="JavaScript" title="JavaScript" height="32" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
   <!-- Backend -->
   <img alt="Django" title="Django" height="32" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" />
@@ -31,58 +31,58 @@ Me gusta crear productos claros, documentados y fáciles de mantener. Trabajo bi
 ![Stats](./profile-summary-card-output/2077/3-stats.svg)
 ![Commits (UTC +1)](./profile-summary-card-output/2077/4-productive-time.svg)
 
-> Nota: oculto “Top Languages” porque no refleja bien mis privados; si quieres ver código real, mira los proyectos de abajo 👇
+> Note: I hide “Top Languages” because it doesn’t reflect private work accurately.  
+> For real code samples, check the featured projects below. 👇
 
 ---
 
-## Proyectos Destacados
+## Featured Projects
 
-- **Portfolio** — [repo](https://github.com/MariaOcete/Portfolio-readme) · [web](https://mariaocete.com/)  
-  *React + Tailwind · Django (backend de contacto)* · Vercel · reCAPTCHA · **IP rate-limit**  
-  Sitio bilingüe con formulario seguro (SMTP, CORS, rate limiting y CAPTCHA). Dominio y SSL propios.
+- **Personal Portfolio** — [repo](https://github.com/MariaOcete/Portfolio-readme) · [website](https://mariaocete.com/)  
+  *React + Tailwind · Django contact backend* · Vercel · reCAPTCHA · **IP rate-limit**  
+  Bilingual site with a hardened contact form (SMTP, CORS, rate limiting, CAPTCHA). Custom domain & SSL.
 
-- **Clinic Management App** *(en progreso)* — [repo](https://github.com/MariaOcete/clinics-app)  
+- **Clinic Management App** *(in progress)* — [repo](https://github.com/MariaOcete/clinics-app)  
   *React · Django REST · PostgreSQL · JWT (HttpOnly)*  
-  Multirrol (admin/doctor/paciente), citas, facturación y expedientes con ficheros cifrados.
+  Multi-role (admin/doctor/patient); appointments, billing, and encrypted medical records.
 
 - **English Learning App** — [readme](https://github.com/MariaOcete/english_web-readme/blob/main/README.md)  
   *Java · Spring Boot · MySQL*  
-  Roles profesor/alumno, test de nivel y gestión de tareas.
+  Teacher/student roles, placement test, and assignment management.
 
 - **TaskList** — [repo](https://github.com/MariaOcete/TaskList)  
   *Angular · (POC) Symfony/PHP backend · Docker Compose*  
-  CRUD de tareas. Primer proyecto de formación.
+  CRUD task manager. First training project.
 
-- **Invoice App (CodeArts Solutions)** *(privado por confidencialidad)*  
+- **Invoice App (CodeArts Solutions)** *(private, NDA)*  
   *Angular (FE) · Symfony/PHP (BE) · PostgreSQL · Docker*  
-  **Dashboard** con métricas mensuales/trimestrales y **auth segura** con Access/Refresh Tokens (HttpOnly).
+  **Admin dashboard** with monthly/quarterly metrics; **secure auth** with Access/Refresh Tokens (HttpOnly).
 
 ---
 
-## Cómo trabajo
+## How I Work
 
-- **Seguridad**: JWT con refresh en cookies HttpOnly, CORS duro, saneo de entrada, protección CSRF donde aplica.  
-- **Calidad**: tests (unidad/integración), revisiones de PR, convenciones de estilo y documentación.  
-- **DevOps**: CI con GitHub Actions, despliegues a Vercel/Render, logs y monitorización básicos.  
-- **UX/Accesibilidad**: i18n, diseño responsive, atención a contrastes y teclado.
+- **Security**: JWT with HttpOnly refresh cookies, strict CORS, input sanitization, CSRF where applicable.  
+- **Quality**: unit/integration tests, PR reviews, style conventions, solid documentation.  
+- **DevOps**: CI with GitHub Actions, deployments to Vercel/Render, basic logs/monitoring.  
+- **UX/Accessibility**: i18n, responsive design, color contrast & keyboard navigation.
 
 ---
 
-## Tecnologías
+## Tech Summary
 
-**Frontend**: React, Angular, Tailwind, HTML5, CSS3, JS (ES6+).  
+**Frontend**: React, Angular, Tailwind, HTML5, CSS3, JavaScript (ES6+).  
 **Backend**: Django REST, Spring Boot/Java, Symfony/PHP, Python.  
-**DB**: PostgreSQL, MySQL.  
+**Databases**: PostgreSQL, MySQL.  
 **Infra/DevOps**: Docker, Vercel, Render, GitHub Actions.  
 **Security**: JWT (HttpOnly), reCAPTCHA, CORS, IP restriction.  
 **Tools**: Git/GitHub, Postman, VS Code, Eclipse, Agile.
 
 ---
 
-## Contacto
+## Contact
 
 - 🌐 Portfolio: **[mariaocete.com](https://mariaocete.com/)**
 - ✉️ Email: **mariaocete93@gmail.com**
 - 🔗 LinkedIn: **[linkedin.com/in/maria-ocete-martin](https://www.linkedin.com/in/maria-ocete-martin/)**
-
 
